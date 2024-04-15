@@ -145,16 +145,17 @@ ul {
 /* SEÇÃO PRINCIPAL*/
 .secao-inicio {
   color: black;
+  background-color: white;
   background-image: url(../img/background_inicio.png);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 85%;
   height: 72vh;
 }
 
 .secao-sobre {
   color: white;
-  background-color: #073c5e;
+  background-color: #0c82a8;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,7 +163,7 @@ ul {
 }
 
 .secao-eventos {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,6 +179,7 @@ ul {
 }
 
 .conteudo-evento {
+  background-color: white;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -234,15 +236,40 @@ ul {
 /*  */
 
 .secao-glossario {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  background-image: url(../img/glossario_bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  height: 50vh;
+}
+
+.secao-glossario-conteudo {
+  background-color: #eaeefd;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.secao-glossario-conteudo {
-  background-color: rgb(204, 204, 204);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+.secao-glossario-conteudo li {
+  width: 25rem;
+  height: 15rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+.glossario-tag {
+  background-color: rgb(216, 219, 238);
+}
+
+.glossario-atributo {
+  background-color: #c2c7e2;
+}
+
+.secao-glossario-conteudo ul {
+  padding: 0.6rem;
+}
+
+fieldset {
+  padding: 2rem;
 }

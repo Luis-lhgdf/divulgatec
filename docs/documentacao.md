@@ -48,6 +48,10 @@ Este repositório contém o código-fonte do site DivulgaTec, uma plataforma par
   - `<td>`: Célula de tabela.
 - `<br>`: Quebra de linha.
 - `<hr>`: Linha horizontal.
+- `<fieldset>`: Agrupa elementos de formulário relacionados em um contêiner..
+
+  - `<legend>`: Fornece um título ou legenda para o agrupamento feito pela tag "fieldset".
+
 - `<footer>`: Rodapé da página.
 
 ---
