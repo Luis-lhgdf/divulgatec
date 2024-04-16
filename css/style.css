@@ -258,7 +258,7 @@ ul {
 }
 
 .secao-glossario-conteudo li {
-  width: 25rem;
+  width: auto;
   height: 15rem;
   text-align: left;
   padding: 1rem;
