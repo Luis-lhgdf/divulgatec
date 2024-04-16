@@ -55,8 +55,6 @@ strong {
 fieldset {
   padding: 2rem;
   display: inline-block;
-  max-width: 100%;
-  overflow-x: auto;
 }
 
 td {
