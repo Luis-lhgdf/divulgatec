@@ -54,6 +54,7 @@ strong {
 
 fieldset {
   padding: 2rem;
+  display: inline-block;
 }
 
 td {
@@ -155,7 +156,7 @@ ul {
   color: black;
   background-color: white;
   background-image: url(../img/background_inicio.png);
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 85%;
   height: 72vh;
@@ -164,9 +165,6 @@ ul {
 .secao-sobre {
   color: white;
   background-color: #073c5e;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 72vh;
 }
 
@@ -177,15 +175,12 @@ ul {
 
 .secao-eventos {
   background-color: rgb(255, 255, 255);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 72vh;
 }
 
 /* SEÇÃO EVENTO 01 e 02 */
 .secao-evento {
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
@@ -193,10 +188,6 @@ ul {
 
 .conteudo-evento {
   background-color: white;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 55vh;
 }
 
 .evento02 {
@@ -217,9 +208,6 @@ ul {
 /* SEÇÃO CONTATO */
 .secao-contato {
   background-color: rgb(255, 255, 255);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .contato_form {
@@ -256,7 +244,7 @@ ul {
 .secao-glossario {
   background-color: #ffffff;
   background-image: url(../img/glossario_bg.png);
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 45%;
   height: 50vh;
@@ -274,7 +262,6 @@ ul {
   height: 15rem;
   text-align: left;
   padding: 1rem;
-
   border-radius: 1rem;
 }
 
