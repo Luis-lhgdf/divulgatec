@@ -52,6 +52,14 @@ strong {
   font-weight: 800;
 }
 
+fieldset {
+  padding: 2rem;
+}
+
+td {
+  padding: 0.5rem;
+}
+
 .secao {
   padding: 7.63rem 2rem;
 }
@@ -188,7 +196,7 @@ ul {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 55vh;
 }
 
 .evento02 {
@@ -199,6 +207,11 @@ ul {
 .evento01 {
   color: white;
   background-image: url(../img/evento01.png);
+}
+
+.img-evento {
+  width: 41rem;
+  height: 25rem;
 }
 
 /* SEÇÃO CONTATO */
@@ -233,12 +246,12 @@ ul {
 
 .contato-tabela {
   color: white;
-  background-color: #306d94;
+  background-color: #073c5e;
   border-radius: 1rem;
   padding: 1rem;
 }
 
-/*  */
+/*SEÇÃO DO GLOSSARIO*/
 
 .secao-glossario {
   background-color: #ffffff;
@@ -261,20 +274,19 @@ ul {
   height: 15rem;
   text-align: left;
   padding: 1rem;
+
+  border-radius: 1rem;
 }
 
 .glossario-tag {
-  background-color: rgb(216, 219, 238);
+  background-color: #ffffff;
 }
 
 .glossario-atributo {
-  background-color: #c2c7e2;
+  background-color: #073c5e;
+  color: white;
 }
 
 .secao-glossario-conteudo ul {
   padding: 0.6rem;
-}
-
-fieldset {
-  padding: 2rem;
 }
