@@ -149,6 +149,18 @@ ul {
   background-color: #f69b10;
 }
 
+/* creditos - direitos autorais */
+.creditos {
+  color: #f69b10;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.creditos a {
+  color: #f69b10;
+}
+
 /* ___________________________________________________________________________________ */
 
 /* SEÇÃO PRINCIPAL*/
